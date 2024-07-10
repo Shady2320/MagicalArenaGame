@@ -1,4 +1,4 @@
-# Magical Arena 
+# Magical Arena
 
 ## Overview
 
@@ -11,6 +11,12 @@ Magical Arena is a simple JavaScript project that simulates a battle between pla
 - **Arena.js**: Manages players and initiates matches in the arena.
 - **Match.js**: Simulates a match between two players, handling turns and determining the winner.
 
+## Test Files
+
+- **player.test.js**: Contains unit tests for the `Player` class methods.
+- **arena.test.js**: Contains unit tests for the `Arena` class functionality.
+- **match.test.js**: Contains unit tests for the `Match` class logic.
+
 ## Getting Started
 
 ### Prerequisites
@@ -21,28 +27,25 @@ Magical Arena is a simple JavaScript project that simulates a battle between pla
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/arena-battle-simulator.git
+    git clone https://github.com/Shady2320/MagicalArenaGame.git
     ```
+
 2. Navigate to the project directory:
     ```bash
-    cd arena-battle-simulator
+    cd src
     ```
 
-### Running the Application
+### Running Tests
 
-1. Run the application:
+1. Install dependencies:
     ```bash
-    node app.js
+    npm install jest
     ```
-2. Observe the match progress and final result in the console output.
 
-## Project Structure
+2. Run tests:
+    ```bash
+    npm test
+    ```
 
-```plaintext
-.
-├── app.js
-├── models
-│   ├── Player.js
-│   ├── Arena.js
-│   └── Match.js
-└── README.md
+This will execute the unit tests defined in `player.test.js`, `arena.test.js`, and `match.test.js`, providing feedback on the functionality of your classes.
+
