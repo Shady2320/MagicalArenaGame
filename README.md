@@ -35,6 +35,22 @@ Magical Arena is a simple JavaScript project that simulates a battle between pla
     cd src
     ```
 
+### Running the Application
+
+To start a match in the Magical Arena:
+
+1. Ensure you're in the project directory (`src`):
+    ```bash
+    cd src
+    ```
+
+2. Run the application:
+    ```bash
+    node app.js
+    ```
+
+    This command initializes players and starts a match in the arena. You'll see the battle simulation in action based on the logic defined in the project files.
+
 ### Running Tests
 
 1. Install dependencies:
@@ -47,5 +63,4 @@ Magical Arena is a simple JavaScript project that simulates a battle between pla
     npm test
     ```
 
-This will execute the unit tests defined in `player.test.js`, `arena.test.js`, and `match.test.js`, providing feedback on the functionality of your classes.
-
+    This will execute the unit tests defined in `player.test.js`, `arena.test.js`, and `match.test.js`, providing feedback on the functionality of your classes.
